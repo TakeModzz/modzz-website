@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" href="icons/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-***********" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <title>404 not found lol </title> 
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @media (min-width: 601px) {
+      body {
+        padding: 0 20px;
+      }
+      .decor-circle {
+        width: 60px;
+        height: 60px;
+        box-shadow: 0 0 30px #00ffa6;
+      }
+      .centered-image {
+        max-width: 400px;
+      }
+      .container-styles h1,
+      .container-styles p {
+        font-size: 20px;
+      }
+      .a-text {
+        padding-top: 20vh;
+      }
+      .container-styles {
+        margin-bottom: 20px;
+        max-width: 500px;
+      }
+      footer {
+        padding: 30px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container-styles {
+        max-width: 350px;
+      }
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #22000774;
+      color: #fff;
+      background: linear-gradient(320deg, #006e52, #00875a, #008758);
+      background-size: 10000% 1000%;
+      animation: gradient 15s infinite alternate;
+      position: relative;
+      overflow-x: hidden;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 100% 50%;
+      }
+    }
+
+    .decor-circle {
+      position: absolute;
+      background-color: #00ffa6;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px #00ffa6;
+      animation: floatAnimation 4s infinite alternate ease-in-out;
+      z-index: -1;
+    }
+
+    @media (max-width: 600px) {
+      .decor-circle {
+        width: 20px;
+        height: 20px;
+        box-shadow: 0 0 30px #00ffa6;
+      }
+    }
+
+    @keyframes floatAnimation {
+      0% {
+        transform: translate(0, -50%);
+      }
+      100% {
+        transform: translate(0, 100%);
+      }
+    }
+
+    .decor-circle:nth-child(1) {
+      top: 10%;
+      left: 10%;
+    }
+
+    .decor-circle:nth-child(2) {
+      top: 70%;
+      left: 20%;
+    }
+
+    .centered-image {
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 255, 166, 0.8);
+      position: relative;
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .centered-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    .centered-image:hover {
+      transform: scale(1.1);
+      filter: drop-shadow(0 0 20px rgba(0, 255, 166, 0.8));
+      transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .t-text {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .a-text {
+      font-size: 20px;
+      padding-top: 30vh;
+      padding-left: 43vw;
+    }
+
+    .typing-svg {
+      display: block;
+      text-align: center;
+      padding-left: 33vw;
+      pointer-events: none;
+    }
+
+    ::selection {
+      background-color: #00edb6;
+      color: white;
+    }
+
+    .container-styles {
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(320deg, #1d000a, #005e3d,  #024738);
+      background-size: 200% 200%;
+      animation: gradient 5s infinite alternate;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+      min-height: auto;
+    }
+
+    .container-styles:hover {
+      box-shadow: 0 0 10px rgba(38, 255, 157);
+      transform: translateY(-10px);
+    }
+
+    .social-link {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .social-link:hover {
+      color: #00edb6;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+  <body>
+  <div class="background-decor" id="decor-container"></div>
+  <img class="centered-image" src="https://cdn.discordapp.com/attachments/1155624654648651900/1160059171622899783/Screenshot_20230317-153500_Google.jpg?ex=6533484b&is=6520d34b&hm=37745254fdc811e8ad1bea9faea2383316d1bbf839a8f7aaaad7397cd4def490&" alt="">
+  <h1 class="t-text">Take Modzz </h1>
+  <a href="https://git.io/typing-svg" class="typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Open+Sans&pause=1000&color=F70000&width=435&lines=Script+Developer+;Web+Designer+;Motion+Designer+;Discord+CM+;Content+Creator+" alt="Typing SVG" />
+  </a>
+  <h1 class="a-text">About</h1>
+
+  <div class="container-styles">
+    <img src="https://cdn.discordapp.com/attachments/1128201438389092405/1145428310030033058/1693161531568.png" alt="" width="150"  height="150" style="transform: translateY(-35px);">
+    <h1 style="transform: translateY(-60px);">Manager</h1>
+    <p style="transform: translateY(-50px);" >I excel as a Discord Community Manager, adept at building and nurturing online communities for a positive and seamless experience.</p>
+  </div>
+
+  <div class="container-styles">
+    <img src="https://cdn.discordapp.com/attachments/1155624654648651900/1160035923606650880/1696644496523.png?ex=653332a4&is=6520bda4&hm=ae91a332d8bdf38086ba498987f5d3a560c47d86dc9c78ae0d493bfc5c6071a9&" alt="" width="120"height="120"style="transform: translateY(-35px);">
+    <h1 style="transform: translateY(-60px);">Developer</h1>
+    <p style="transform: translateY(-50px);">With expertise in platforms like Discord and proficiency in languages like Lua, HTML, and more, I create innovative solutions that drive project success.</p>
+  </div>
+
+  <div class="container-styles">
+    <img src="https://cdn.discordapp.com/attachments/1155624654648651900/1160035347833569280/1693111866622.png?ex=6533321b&is=6520bd1b&hm=2534b3f68b92422981a959056bae3ce31512dc8dd109a59e3c4663deaea98c2b&" alt="" width="110"height="110"style="transform: translateY(-25px);">
+    <h1 style="transform: translateY(-35px);">Designer</h1>
+    <p style="transform: translateY(-30px);">I excel as a Video Editor and Motion Animator, bringing creativity and expertise to craft engaging visual content.</p>
+  </div>
+
+  <footer style="background-color: black; color: white; text-align: center; padding: 50px;">
+    &copy; 2023 TakeModzz. All Rights Reserved.
+    <br>
+    Socials :
+    <a href="https://youtube.com/@TakeModzz?si=07sciJ4IeKHWKm7w" target="_blank" class="social-link">
+      <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://discord.gg/Arceus" target="_blank" class="social-link">
+      <i class="fab fa-discord"></i>
+    </a>
+  </footer>
+
+  <script>
+    function createRandomCircle() {
+      const container = document.getElementById('decor-container');
+      const circle = document.createElement('div');
+      circle.className = 'decor-circle';
+      const randomX = Math.random() * 100;
+      const randomY = Math.random() * 100;
+      circle.style.left = `${randomX}%`;
+      circle.style.top = `${randomY}%`;
+      container.appendChild(circle);
+    }
+    const numberOfCircles = 25;
+    for (let i = 0; i < numberOfCircles; i++) {
+      createRandomCircle();
+    }
+    window.location.hash = "dev";
+  </script>
+</body>
+      </html> 
